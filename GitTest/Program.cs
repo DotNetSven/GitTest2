@@ -10,6 +10,13 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Geef het aantal keer dat u wilt printen");
+            int aantal = int.Parse(Console.ReadLine());
+            for (int i = 0; i < aantal; i++)
+            {
+                Console.WriteLine("Print nr {0}.",i+1);
+            }
+            Console.ReadKey();
         }
     }
 }
